@@ -12,6 +12,11 @@ License:	LGPLv2.1+
 Url:		https://limoa.sourceforge.net/
 Source0:	%{name}-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 LIM OpenMAX Application layer library.
 
